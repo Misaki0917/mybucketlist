@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  height: 36px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: salmon;
+  padding: 14px 40px;
+}
+
+h1{
+  font-size: 40px;
+  text-emphasis: weight;
+  color: white;
+}
+
+.nav{
+  display: flex;
+}
+
+.nav > li > a{
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.journey{
+  background-image: url(../img/buckground-image.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.title{
+  text-align: center;
+  font-size: 80px;
+  text-align: center;
+}
+
+.guideline > li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 14px;
+  font-size: 30px;
+}
+
+.introduction > h2
+{
+  font-size: 40px;
+  text-align: center;
+  color: salmon;
+  padding-top: 40px;
+}
+
+.contents{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin: 20px auto;
+}
+
+.description{
+  width: 50%;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid salmon;
+}
+
+.contents > img{
+  height: 200px;
+  margin: 0 20px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  list-style: none;
+}
+
+li a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  width: 150px;
+  color:#fff;
+  background-color: salmon;
+  padding: 20px 0;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+footer{
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid salmon;
+}
+
+h3{
+  color: salmon;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 40px;
+}
